@@ -1,0 +1,409 @@
+.root {
+  color-body: #b6cbce;
+  color-heading: #eef3db;
+  color-base: silver;
+  color-base2:silver;
+  color-brand: #e0f780;
+  color-brand2: #deff58;
+  sidebar-width: 240px;
+  font-base: Bai jamjuree;
+}
+#pew {
+  color:  #970747;
+  font-family: Bai jamjuree;
+}
+body {
+  background-color: #970747;
+  color: #eef3db;
+  font-family: var(--font-base), sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-heading);
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: var(--color-body);
+  transition: all 0.4s ease;
+}
+a:hover {
+  color: var(color-brand);
+}
+.display {
+  display: flex;
+}
+.bg-base {
+  background-color:rgb(133, 124, 128);
+}
+.shadow-effect {
+  transition: all 0.5s;
+}
+.proposal{
+  border-style: outset;
+  color: #970747;
+  font-family: bai jamjuree;
+}
+.shadow-effect:hover {
+  box-shadow: 6px 6px 0 0px rgb(212, 163, 146);
+}
+.iconbox {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-item: center;
+  justify-content: center;
+  font-size: 32px;
+  background-color:rgb(206, 117, 157);
+  color: red;
+}
+#yes {
+  text-decoration: underline;
+}
+.navbar .nav-link.active {
+  color: yellow;
+}
+#yep {
+  text-decoration: underline;
+  color: #970747;
+}
+/* CARD */
+.card-custom .card-custom-image {
+  overflow: hidden;
+}
+.card-custom.card-custom-image img {
+  transition: all 0.4s ease;
+}
+.card-custom:hover .card-custom-image img {
+  transform: scale(1.1);
+}
+.full-height {
+  display: flex;
+  justify-content: center;
+  flex-direction: colomn;
+}
+.btn-brand{
+  background-color:  #970747;
+}
+.project {
+  position: relative;
+}
+.contact .form-control{
+  background-color: silver;
+  border-color: white;
+  color: black;
+}
+.contact .form-control:focus{
+  border-color: wheat;
+  box-shadow: 2px;
+}
+.contact .form-control::placeholder {
+  color: white;
+}
+.contact input.form-control{
+  height: 44px;
+}
+#contact{
+  background-color:   #970747;
+}
+.project .overlay {
+  position: absolute !important;
+}
+.project .content {
+  position: absolute;
+}
+/* FOOTER */
+.footer-top {
+display: grid;
+gap: 40px;
+padding-block: 60px;
+}
+.footer .logo img{
+width: 80px;
+height: 70px;
+}
+.footer-brand .footer-text{
+  margin-block: 20px;
+}
+.social-list{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.social-link{
+  color: green;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: var(--radius-pill);
+  transition: var(--transition-1);
+}
+.social-link: is(:hover, :focus-visible){
+backgroung-color: blue;
+color: white;
+}
+.footer-list-title{
+ color: gunmetal;
+ font-size: 25px;
+ font-weight: semiBold;
+ margin-block-end: 15px; 
+}
+.footer-link{
+  margin-block-start: 10px;
+  color: white;
+  text-decoration: none;
+}
+.footer-link: is(:hover, :focus-visible){
+  text-decoration: none;
+}
+.footer-list .footer-text{
+  margin-block-end: 15px;
+}
+.input-field{
+  height: 55px;
+  padding-inline: 25px 60px;
+border: 1px solid gainsboro;
+color: gunmetal;
+}
+.input-wrapper{
+  position: relative;
+}
+.input-field :focus{
+  border-color: majorelle blue;
+}
+.input-btn{
+  width: 45px;
+  height: 45px;
+  backgroung-color: blue;
+  font-size: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: circle;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  transition: var(--transition-1);
+  color: #333;
+}
+.input-btn fa-regular{
+  transform: translateX(-2px) rotate(45deg);
+  
+}
+.input-btn: is(:hover, :focus-visible){
+  backgroung-color: blue;
+}
+.footer-bottom{
+  padding-block: 30px;
+  border-block-start: 1px solid rgb(145, 134, 139);
+}
+.copyright{
+  margin-block-end: 20px;
+}
+.copyright-link{
+  display: inline-block;
+  color: blue;
+  font-weight: 45px;
+}
+.footer-bottom-link: is(:hover, :focus-visible){
+  text-decoration: underline;
+}
+/* //FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:rgb(172, 150, 150);
+  margin: 0;
+  padding: 0;
+}
+.stayy .navbar-brand{
+  color: #970747;
+  padding-right: 0px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+  text-align:
+  padding:
+  background-color:
+  color: 
+}
+header h1 {
+  font-size: 3em;
+}
+.section-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color:rgb(83, 53, 67);
+}
+.section-content {
+  margin: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section-content div {
+  flex: 1 1 45%;
+  padding: 20px;
+  background-color:rgb(43, 36, 36);
+  border-style: outset;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section-content div h2 {
+  color: #2e86c1;
+}
+.destiny{
+  color: #970747;
+  font-family: Bai jamjuree;
+  border-style: outset;
+  border-color: #970747;
+}
+.text-center{
+  color: black;
+  font-family: bai jamjuree;
+}
+.values-list {
+  list-style-type: none;
+  padding: 0;
+}
+.values-list li {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: rgba(241, 232, 232, 0.93);
+}
+.contact-info {
+  text-align: center;
+  background-color:rgb(212, 211, 211);
+  color: black;
+  padding: 30px;
+  margin-top: 50px;
+}
+.contact-info h3 {
+  font-size: 2em;
+}
+.contact-info p {
+  font-size: 1.2em;
+}
+.yop{
+    transition: all 0.4s ease;
+    transform: scale(1.1);
+}
+.text-center{
+  font-family: bai jamjuree;
+  font-style: italic;
+  color: rgb(87, 86, 86);
+}
+.idoo{
+  position: sticky;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+ .backgroung-imagess{
+ background-image: url('./img/bill board copy.png');
+  backgroung-size: cover;
+  background-repeat: no-repeat;
+   height: 120vh;
+ }
+.logo{
+  padding-bottom: 15px;
+  padding-top: 0px;
+  padding-right: 10px;
+  width: 80px;
+  height: 60px;
+}
+/* WHATSAPP BTN */
+.whatsapp-btn-container .whatsapp-btn{
+ font-size: 48px;
+ color: #25d366;
+ display: inline-block;
+ transition: all 400ms;
+}
+.whatsapp-btn-container{
+  animation: fade-up;
+}
+.whatsapp-btn-container span{
+left: 4px;
+font-family: "Roboto", sans-serif;
+font-weight: bold;
+color: #075e54;
+transform: rotateZ(20deg) translateX(10px); 
+transition: all 400s;
+}
+.whatsapp-btn-container .whatsapp-btn:hover + span{
+  transform: rotateZ(0deg) translateX(0px); 
+  opcity: 1;
+}
+.whatsapp-btn-container .whatsapp-btn:hover{
+  transform: scale(1.2);
+}
+.whatsapp-btn-container {
+  gap: 10px; /* Adjust spacing between buttons */
+  align-items: center;
+  justify-content: start; /* Change to center or space-between if needed */
+  margin-top: 10px; /* Adjust spacing from links above */
+}
+
+.whatsapp-btn {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 24px; /* Adjust size */
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+}
+
+/* //WHATSAPP BTN */
+
+.text-overlay h1{
+font-family: Courier;
+font-size: 90px;
+color:rgb(136, 63, 96);
+}
+.text-overlay h3{
+  font-family: bai jamjuree;
+  font-size: 45px;
+  color:rgb(252, 225, 176);
+}
+
+.text-overlay{
+  text-align: center;
+  padding-top: 320px; 
+}
+
+
+
+
+
+
+
+
